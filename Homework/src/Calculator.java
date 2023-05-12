@@ -34,7 +34,7 @@ public class Calculator implements ICalculator{
     @Override
     public double factorial(int n) {
         double factorial = 1;
-        for (int i = 1; i == n; i++){
+        for (int i = 1; i <= n; i++){
             factorial = factorial*i;
         }
         return factorial;
