@@ -4,5 +4,4 @@ public interface ICalculator {
     double multiply (double a, double b);
     double divide (double a, double b);
     double percentage (double a, double b);
-    double factorial (int n);
 }
